@@ -64,11 +64,11 @@ int main() {
 			Allocation[i][1] = 0;
 			Allocation[i][2] = 0;
 
-			if (finish[0] == 1 && finish[1] == 1 && finish[2] == 1 && finish[3] == 1)
-				break;
 			cout << "need:" << endl << need << "Allocation:" << endl << Allocation << "Available"<<endl;
 			printf(Available);
 			flag = 1;
+			if (finish[0] == 1 && finish[1] == 1 && finish[2] == 1 && finish[3] == 1)
+				break;
 		}	
 	}
 
